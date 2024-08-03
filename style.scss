@@ -1,0 +1,300 @@
+*{
+    margin: 0%;
+    // border: 2px solid red;
+    @keyframes appear {
+        0%{
+            opacity: 0.7;
+            scale: 0.7;
+        }
+        100%{
+            opacity: 1.0;
+            scale: 1.0;
+        }
+        
+    }
+    
+    .anim{
+        animation: appear linear;
+        animation-timeline: view();
+    }
+
+
+    body{
+        font-family: 'Raleway', sans-serif;
+        background-color: #1A1923;
+
+
+        .Section1{
+            height:200vh;
+            width: 100%;
+            
+            .top-color {
+                height: 110vh;
+                background-color: #1F222C;
+            nav{
+                position: fixed;
+                width:100%;
+                height: 80px;
+                align-items: center;
+                background-color: #1F222C;
+                display: flex;
+                flex-direction: row;
+                z-index: 99;
+                justify-content: center;
+                gap: 250px;
+
+                .logo-img{
+
+                    img{
+                        
+                    width: auto;
+                    height: 32px;
+
+                    }
+                }
+
+                .nav-links{
+                    display: flex;
+                    gap: 40px;
+                    
+                    ul{
+                        display: flex;
+                        gap: 40px;
+                        li{
+                            padding: 10px 0px 10px 0px ;
+                            list-style: none;
+                            a{
+                                text-decoration: none;
+                                color: white;
+                                color: #F2F2F2;
+                                font-size: 14px;
+                                font-weight: 600;
+                                transition: all 0.3s;
+                            }
+                            a::after{
+                                content:'';
+                                background-color: rgb(26, 22, 231);
+                                width: 100%;
+                                height: 2.5px;
+                                opacity: 0;
+                                display: block; 
+                                margin-top: 3px;
+                                transition: all 0.3s;
+                            }
+                            a:hover::after{
+                                opacity: 1;
+                            }
+                        }
+                        
+                    }
+
+                }
+
+                .button{
+                    height:40px;
+
+                    .sign-up{
+                        padding: 14px 36px 14px 36px;
+                        color: #1F222C;
+                        background-color: white;
+                        text-decoration: none;
+                        border-radius: 08px;
+                        font-size: 14px;
+                        font-weight: 600;
+                    }
+                }
+            }
+            h1{
+                font-size: 60px;
+                color: white;
+                text-align: center;
+                line-height: 120%;
+                padding-top: 112px;
+            }
+            p{
+                color: #9EA4B2;
+                font-size: 20px;
+                padding-top: 25px;
+                line-height: 120%;
+                text-align: center;
+            }
+
+            .buttons{
+                padding-top: 40px;
+                text-decoration: none;
+                gap: 26px;
+                display: flex;
+                justify-content: center;
+
+                .demobtn{
+                    color: white;
+                    text-decoration: none;
+                    background-color: #3B38FF;
+                    padding: 16px 36px 16px 36px;
+                    border-radius: 8px;
+                    font-size: 14px;
+                    width: 140px;
+                    text-align: center;
+                    
+                }
+                .free{
+                    color: white;
+                    text-decoration: none;
+                    border: 1px solid #37335F;
+                    padding: 16px 26px 16px;
+                    border-radius: 8px;
+                    font-size: 14px;
+                    text-align: center;
+                }
+            }
+            div{
+                display: flex;
+                justify-content: center;
+
+                .main-img{
+                height: 550px;
+                width: auto;
+                border-radius: 38px;
+                z-index: 3;
+                padding-top: 60px;
+                display: inline;
+            }
+            }
+            }
+            .bottom-color{
+                height: 65vh;
+                background-color: #1A1923;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+
+            .logo-images{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    margin-top: 34%;
+                .comp{
+                    display: flex;
+                    justify-content: center;
+                    gap: 60px;
+
+                    .customer{
+                        height: 40px;
+                        object-fit: contain;
+                        filter: grayscale(23);
+                        transition: 1.2s ease-in-out linear;
+                    }
+                    .customer:hover{
+                        filter: grayscale(0);
+                    }
+
+                }
+                .cust-btn{
+                    padding-top: 5%;
+                    margin-bottom: 40px;
+                    display: flex;
+                    justify-content: center;
+                button{
+                    border: 1px solid #37335F;
+                    padding: 16px 46px 16px 46px;
+                    background-color: transparent;
+                    color: #9EA4B2;
+                    border-radius: 8px;
+                }
+                }
+            }
+        }
+            
+        }
+        .Section2{
+            background-color: #0D0C16;
+            width: 100%;
+            height: 680px;
+            display: flex;
+            justify-content: center;
+            
+            .left{
+                margin-left: 15%;
+                height: 40px;
+                width: auto;
+                object-fit: contain;
+            .cover-img{
+                position: relative;
+                object-fit: contain;
+
+                img{
+                    margin-top: 80px;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                }
+
+                .below{
+                    width: 350px;
+                    height: max-content;
+                    z-index: 1;
+                    transition: all ease-in-out 1.4s;
+                    
+                }
+                .above{
+                    margin-top: 210px;
+                    width: 500px;
+                    z-index: 2;
+                }
+
+            }}
+            .right {
+                display: flex;
+                justify-content: end;
+                border: white;
+
+                .text{
+                        padding: 20% 0% 0% 50%;
+
+                    h2{
+                        font-size: 36px;
+                        color: white;
+                        font-weight: 650;
+                        padding-bottom: 5%;
+                    }
+                    p{
+                        color: #787B83;
+                        width: 60%;
+                    }
+                }
+            }
+        }
+        .Section3{
+            background-color: #1A1923;
+            display:flex;
+            flex-direction: column;
+
+            div{
+                background-color: rgb(255, 255, 255);
+                height: 200px;
+                width: 300px;
+                
+
+                div{
+                    .img-1{
+                        position: relative;
+                        left:200px;
+                        height: 450px;
+                        top: 40px;
+                        z-index: 1;
+                    }
+
+                    .img-2{
+                        position: relative;
+                        left: 80px;
+                        top: 300px;
+                        height: 300px;
+                        z-index: 3;
+                    }
+                }
+            }
+
+        }
+
+    }
+}
