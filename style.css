@@ -15,6 +15,16 @@
   animation: appear linear;
   animation-timeline: view();
 }
+* .h2 {
+  font-size: 36px;
+  color: white;
+  font-weight: 650;
+  padding-bottom: 5%;
+}
+* .para {
+  color: #787B83;
+  width: 60%;
+}
 * body {
   font-family: "Raleway", sans-serif;
   background-color: #1A1923;
@@ -226,37 +236,39 @@
 * body .Section2 .right .text {
   padding: 20% 0% 0% 50%;
 }
-* body .Section2 .right .text h2 {
-  font-size: 36px;
-  color: white;
-  font-weight: 650;
-  padding-bottom: 5%;
-}
-* body .Section2 .right .text p {
-  color: #787B83;
-  width: 60%;
-}
 * body .Section3 {
   background-color: #1A1923;
   display: flex;
   flex-direction: column;
 }
 * body .Section3 div {
-  background-color: rgb(255, 255, 255);
   height: 200px;
   width: 300px;
 }
+* body .Section3 div div img {
+  position: absolute;
+}
 * body .Section3 div div .img-1 {
-  position: relative;
   left: 200px;
   height: 450px;
   top: 40px;
   z-index: 1;
 }
 * body .Section3 div div .img-2 {
-  position: relative;
   left: 80px;
   top: 300px;
   height: 300px;
   z-index: 3;
+}
+* body .Section3 div div {
+  padding: 20px 0px 20px 0px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  background-color: transparent;
+}
+* body .Section3 div div p {
+  color: #787B83;
+  width: 60%;
 }/*# sourceMappingURL=style.css.map */
