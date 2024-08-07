@@ -403,56 +403,69 @@
             justify-content: center;
             align-items: center;
 
-            div{
+            .data{
                 display: flex;
                 flex-direction: row;
+                justify-content: center;
                 width: 60%;
                 gap: 40px;
 
-                div{
+                .main-text{
                     display: flex;
                     flex-direction: column;
-                    gap: 20px;
+                    gap: 28px;
 
-                    h3{
-                        color: #F2F2F2;
-                        font-size: 32px;
-                        font-weight: 600;
-                    }
-                    p{
-                        color: #787B83;
-                        font-size: 14px;
-                        width: 60%;
-                    }
                     div{
+                        display: flex;
+                        flex-direction: column;
+                        gap: 20px;
+                        width: 100%;
+                    
+
+                        h3{
+                            color: #F2F2F2;
+                            font-size: 40px;
+                        }
+                        p{
+                            color: #787B83;
+                            font-size: 16px;
+                            width: 60%;
+                        }
                     }
                     
                 }
                 .Ten{
-                    width: 300px;
+                    width: 350px;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 12px;
 
                     h3{
                         color: #F2F2F2;
-                        font-size: 80px;
+                        font-size: 100px;
                         font-family: Futura;
-                        font-weight: 600;
                     }
                     p{
                         color: #787B83;
+                        font-size: 16px;
                     }
 
                 }
                 .Seventeen{
-                    width: 300px;
+                    width: 350px;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 12px;
                     
                     h3{
                         color: #787B83;
-                        font-size: 80px;
+                        font-size: 100px;
                         font-family: Futura;
                         font-weight: 600;
                     }
                     p{
                         color: #787B83;
+                        font-size: 16px;
                         width: 100%;
                     }
                 }
