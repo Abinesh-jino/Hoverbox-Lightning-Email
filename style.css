@@ -326,6 +326,7 @@
   font-family: Raleway;
   font-size: 24px;
   width: 520px;
+  line-height: 2.2rem;
   font-weight: 400;
 }
 * body .Testimonial div div div {
@@ -339,4 +340,58 @@
 }
 * body .Testimonial div div div p:nth-child(2) {
   font-size: 12px;
+}
+* body .Trusted {
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+}
+* body .Trusted div {
+  display: flex;
+  flex-direction: row;
+  width: 60%;
+  gap: 40px;
+}
+* body .Trusted div div {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+* body .Trusted div div h3 {
+  color: #F2F2F2;
+  font-size: 32px;
+  font-weight: 600;
+}
+* body .Trusted div div p {
+  color: #787B83;
+  font-size: 14px;
+  width: 60%;
+}
+* body .Trusted div .Ten {
+  width: 300px;
+}
+* body .Trusted div .Ten h3 {
+  color: #F2F2F2;
+  font-size: 80px;
+  font-family: Futura;
+  font-weight: 600;
+}
+* body .Trusted div .Ten p {
+  color: #787B83;
+}
+* body .Trusted div .Seventeen {
+  width: 300px;
+}
+* body .Trusted div .Seventeen h3 {
+  color: #787B83;
+  font-size: 80px;
+  font-family: Futura;
+  font-weight: 600;
+}
+* body .Trusted div .Seventeen p {
+  color: #787B83;
+  width: 100%;
 }/*# sourceMappingURL=style.css.map */
