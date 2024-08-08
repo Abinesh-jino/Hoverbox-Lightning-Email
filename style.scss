@@ -424,7 +424,7 @@
 
                         h3{
                             color: #F2F2F2;
-                            font-size: 40px;
+                            font-size: 44px;
                         }
                         p{
                             color: #787B83;
@@ -462,15 +462,100 @@
                         font-size: 100px;
                         font-family: Futura;
                         font-weight: 600;
-                        transition: all 1.3s cubic-bezier();
                     }
                     h3:hover {
+                        transition: 0.6s ease-in-out;
                         color: #F2F2F2;
                     }
                     p{
                         color: #787B83;
                         font-size: 16px;
                         width: 100%;
+                    }
+                }
+            }
+        }
+        .Newsletter{
+            display: flex;
+            justify-content: center;
+            background-color: #0D0C16;
+            height: 60vh;
+            width: 100%;
+            color: #F2F2F2;
+            align-items: center;
+
+            .main-news{
+                display: flex;
+                flex-direction: column;
+                gap: 24px;
+                align-items: center;
+
+                h2{
+                    color: #F2F2F2;
+                    text-align: center;
+                    font-family: Raleway;
+                    font-size: 44px;
+                    width: 60%;
+                    font-weight: 600;
+                }
+                .input{
+                    display: flex;
+                    align-items: center;
+                    width: 70%;
+                    input{
+                        border-radius: 10px 0px 0px 10px;
+                        border: 1px solid #37335F;
+                        height: 100%;
+                        background: transparent;
+                        outline: none;
+                        padding: 10px 20px 10px 10px;
+                        color: #9EA4B2;
+                        height: 32px;
+                        width: 100%;
+                        
+                    }
+                    .sub-button{
+                        font-size: 14px;
+                        text-decoration: none;
+                        border-radius: 0px 10px 10px 0px;
+                        background-color: #3B38FF;
+                        color: white;
+                        height:max-content;
+                        width: 30%;
+                        padding: 18px 24px;
+                        cursor: pointer;
+                    }
+                }
+                p{
+                    color: #797C84
+                }
+            }
+        }
+
+        .Trial{
+            height: 80vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+            .main-trial{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                width:50%;
+                
+                div{
+                    display: flex;
+                    flex-direction: column;
+                    h2{
+                        font-size: 44px;
+                        color: #F2F2F2;
+                        text-align: center;
+                        font-family: Raleway;
+                        width: 60%;
+                        font-weight: 600;
+                        
                     }
                 }
             }
