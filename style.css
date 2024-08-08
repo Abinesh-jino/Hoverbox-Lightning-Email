@@ -402,6 +402,10 @@
   font-size: 100px;
   font-family: Futura;
   font-weight: 600;
+  transition: all 1.3s cubic-bezier();
+}
+* body .Trusted .data .Seventeen h3:hover {
+  color: #F2F2F2;
 }
 * body .Trusted .data .Seventeen p {
   color: #787B83;
