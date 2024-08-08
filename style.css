@@ -477,17 +477,63 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 50%;
+  gap: 52px;
 }
 * body .Trial .main-trial div {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 * body .Trial .main-trial div h2 {
   font-size: 44px;
   color: #F2F2F2;
   text-align: center;
   font-family: Raleway;
-  width: 60%;
+  width: 100%;
   font-weight: 600;
+}
+* body .Trial .main-trial .trial-input {
+  display: flex;
+  gap: 24px;
+}
+* body .Trial .main-trial .trial-input input {
+  outline: none;
+  border: 1px solid #37335F;
+  padding: 16px 46px 16px 16px;
+  color: #9EA4B2;
+  width: 100%;
+  background-color: transparent;
+}
+* body .Trial .main-trial .trial-input a {
+  width: 100%;
+  background-color: #3B38FF;
+  color: #F2F2F2;
+  text-decoration: none;
+  padding: 16px 40px 16px 40px;
+  align-items: center;
+  text-align: center;
+  border-radius: 8px;
+}
+* body .Trial .main-trial p {
+  color: #797C84;
+}
+* body .Trial .main-trial p span a {
+  color: #F2F2F2;
+  text-decoration: none;
+}
+* body .div-hr {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+* body .div-hr .hr {
+  width: 65%;
+  border: 1px solid #37335F;
+  align-self: center;
+}
+* body footer {
+  display: flex;
+  justify-content: center;
+  color: #F2F2F2;
 }/*# sourceMappingURL=style.css.map */
