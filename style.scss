@@ -615,6 +615,50 @@
             display: flex;
             justify-content: center;
             color: #F2F2F2;
+
+            .footer{
+                display: flex;
+                
+                .footer-1{
+                    width: 200px;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 20px;
+
+                    .foot-logo{
+                        width: 100%;
+                        object-fit: contain;
+                        height: 80px;
+                    }
+
+                    .footer-text{
+                    color:#797C84;
+                    }
+                }
+                .footer-links{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: flex-start;
+                    h4{
+                        color: #F2F2F2;
+                    }
+                    div{
+                        display: flex;
+
+                        ul li{
+                            color: #797C84;
+                            list-style: none;
+    
+                            a{
+                                text-decoration: none;
+                                color: #797C84;
+                            }
+                        }
+                    }
+                    
+                }
+                
+            }
         }
 
     }
