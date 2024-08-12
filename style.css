@@ -594,4 +594,42 @@
 * body footer .copyrights {
   color: #A79EB2;
   font-size: 14px;
+}
+
+@media screen and (max-width: 1025px) {
+  body .Section1 .top-color nav {
+    gap: 40px;
+  }
+  body .Section1 .top-color nav .logo-img img {
+    height: 24px;
+  }
+  body .Section1 .top-color nav .nav-links {
+    font-size: 1px;
+  }
+  body .Section1 .top-color nav .nav-button {
+    align-items: center;
+  }
+  body .Section1 .top-color nav .nav-button .sign-up {
+    padding: 8px 10px;
+    font-size: 12px;
+    align-items: center;
+  }
+  body .Section1 .top-color h1 {
+    font-size: 36px;
+  }
+}
+@media screen and (max-width: 680px) {
+  body .Section1 .top-color nav {
+    gap: 40px;
+    justify-content: flex-start;
+  }
+  body .Section1 .top-color nav .logo-img {
+    margin-left: 20px;
+  }
+  body .Section1 .top-color nav .logo-img img {
+    height: 22px;
+  }
+  body .Section1 .top-color nav .nav-links {
+    display: none;
+  }
 }/*# sourceMappingURL=style.css.map */
