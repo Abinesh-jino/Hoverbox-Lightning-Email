@@ -136,13 +136,11 @@
   text-align: center;
 }
 * body .Section1 .top-color .buttons .free {
-  color: white;
-  text-decoration: none;
-  border: 1px solid #37335F;
   padding: 16px 26px 16px;
-  border-radius: 8px;
   font-size: 14px;
   text-align: center;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
 }
 * body .Section1 .top-color div {
   display: flex;
@@ -616,6 +614,9 @@
   }
   body .Section1 .top-color h1 {
     font-size: 36px;
+  }
+  body .Section1 .top-color p {
+    font-size: 12px;
   }
 }
 @media screen and (max-width: 680px) {

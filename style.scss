@@ -44,6 +44,7 @@
             border-radius: 8px;
             text-decoration: none;
             max-width: 100px;
+        
         }
 
         
@@ -160,13 +161,10 @@
                     
                 }
                 .free{
-                    color: white;
-                    text-decoration: none;
-                    border: 1px solid #37335F;
                     padding: 16px 26px 16px;
-                    border-radius: 8px;
                     font-size: 14px;
                     text-align: center;
+                    max-width: fit-content;
                 }
             }
             div{
@@ -719,6 +717,9 @@
                 
                 h1{
                     font-size: 36px;
+                }
+                p{
+                    font-size: 12px;
                 }
             }
         }
