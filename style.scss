@@ -693,6 +693,8 @@
     body{
         .Section1{
             .top-color{
+                height: 90vh;
+                
                 nav{
                     gap:40px;
                     .logo-img{
@@ -720,6 +722,12 @@
                 }
                 p{
                     font-size: 12px;
+                }
+
+                div{
+                    .main-img{
+                        height: 400px;
+                    }
                 }
             }
 

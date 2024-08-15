@@ -595,6 +595,9 @@
 }
 
 @media screen and (max-width: 1025px) {
+  body .Section1 .top-color {
+    height: 90vh;
+  }
   body .Section1 .top-color nav {
     gap: 40px;
   }
@@ -617,6 +620,9 @@
   }
   body .Section1 .top-color p {
     font-size: 12px;
+  }
+  body .Section1 .top-color div .main-img {
+    height: 400px;
   }
   body .Section1 .bottom-color .logo-images .comp {
     gap: 40px;
